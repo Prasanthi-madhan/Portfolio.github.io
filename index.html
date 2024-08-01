@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <header class="header">
+        <a class="logo" href="#">Portofolio.</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1;">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skills" style="--i:3;">Skills</a>
+            <a href="#" style="--i:4;">Portofolio</a>
+            <a href="#" style="--i:5;">Contact</a>
+        </nav>
+    </header> -->
+    <section class="header">
+        <a class="logo" href="#">Portofolio.</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1;">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skills" style="--i:3;">Skills</a>
+            <a href="#portofolio" style="--i:4;">Certifications</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>
+    </section>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello there it's me</h3>
+            <h1>Prasanthi</h1>
+            <h3> I'm qualified in <span class="multi-text"></span> </h3>
+            <p>A strong foundation in software development, data analysis,
+                and high-tech technologies fuels my passion for the transformative
+                power of <span style="color: aqua;">Artificial Intelligence and Data Science.</span>
+                My primary interests focus on leveraging these fields to enhance user experiences and solve real-world problems.
+                Through my academic journey, I have gained proficiency in various programming languages and tools,
+                enabling me to contribute effectively to <span style="color: aqua;">innovative and impactful projects.</span></p>
+            </p>
+            <div class="social-media">
+                <a target="_blank" href="https://www.linkedin.com/in/prasanthi-madhan-a79047320" onclick="highlightParagraph()" style="--i:1;"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://github.com/Prasanthi-madhan" style="--i:2;"><i class='bx bxl-github'></i></a>
+                <a href="#" id="copyButton-1" style="--i:3;"><i class='bx bxl-gmail' ></i></a>
+                <a href="#" id="copyButton-2" style="--i:4;"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="santhi-1.jpg" alt="">
+        </div>
+    </section>
+    <section class="home" id="about">
+        <center>
+            <div class="about-img">
+                <img src="santhi-2.jpg" alt="">
+            </div>
+        </center>
+        <div class="home-content">
+            <h1>About me</h1>
+            <span style="color: aqua; font-size:30px "></span>
+            <!-- <span style="color: aqua;font-size:30px"></span> -->
+            <br>
+            <p>
+                I'm a <span style="color: aqua; font-size:25px ">Passionate Technologist</span> with a strong background in <span style="color: aqua; font-size:25px ">Software Development</span>,
+                <span style="color: aqua; font-size:25px ">Data Analysis</span>, other innovations. 
+                My journey has involved working on a variety of projects using advanced tools and techniques in <span style="color: aqua; font-size:25px ">Artificial Intelligence</span>,
+                <span style="color: aqua; font-size:25px ">Data Science</span>, and <span style="color: aqua; font-size:25px ">Natural Language Processing</span>. I've built user-friendly web applications with HTML,
+                Bootstrap CSS, and EJS, and developed secure systems integrated with APIs and MongoDB.
+                By leveraging NLP algorithms like <span style="color: aqua">TFIDF, BERT, and SBERT</span>, I've developed robust <span style="color: aqua; font-size:25px ">Semantic Search Systems</span>.
+                My work in computer vision, using tools like OpenCV and Mediapipe,
+                showcases my ability to design intuitive user interaction systems. I'm proficient in languages such as <span style="color: aqua; font-size:25px ">Java, Python</span>
+                and <span style="color: aqua; font-size:25px ">Javascript</span>, and skilled with business intelligence tools like <span style="color: aqua; font-size:25px ">Tableau</span> and <span style="color: aqua; font-size:25px ">IBM Cognos</span>.
+                I enjoy pushing the boundaries of technology and creating innovative solutions that make an impact.
+            </p>
+        </div>
+    </section><br><br><br><br>
+    <section id="skills" class="skills-content">
+        <div class="container text-center">
+            <div class="row row-cols-2">
+              <div class="col">
+                <h1>Professional Skills</h1>
+                <table class="table table-borderless table-dark">
+                    <thead>
+                        <tr>
+                          <th scope="col">Skill</th>
+                          <th></th>
+                          <th scope="col">Knowledge</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                            <td style="text-align: center;">Python</td>
+                            <td class="social-media"><a href="#"><i class='bx bxl-python'></i></a></td>
+                            <td class="social-media-1"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Java</td>
+                            <td class="social-media"><a href="#"><i class='bx bxl-java'></i></a></td>
+                            <td class="social-media-1"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">C</td>
+                            <td class="social-media"><a href="#"><i class='bx bxl-c-plus-plus'></i></a></td>
+                            <td class="social-media-2"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">SQL</td>
+                            <td class="social-media"><a href="#"><i class='bx bxl-postgresql' ></i></a></td>
+                            <td class="social-media-2"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">JavaScript</td>
+                            <td class="social-media"><a href="#"><i class='bx bxl-javascript' ></i></a></td>
+                            <td class="social-media-3"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Power BI</td>
+                            <td class="social-media"><a href="#"><i class='bx bx-signal-4'></i></a></td>
+                            <td class="social-media-3"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">NoSQL</td>
+                            <td class="social-media"><a href="#"><i class='bx bxl-mongodb' ></i></a></td>
+                            <td class="social-media-3"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                      </tbody>
+                  </table>
+              </div>
+              <div class="col">
+                <h1>Soft Skills</h1>
+                <table class="table table-borderless table-dark">
+                    <thead>
+                        <tr>
+                          <th scope="col">Skill</th>
+                          <th></th>
+                          <th scope="col">Knowledge</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                            <td style="text-align: center;">Confidence</td>
+                            <td class="social-media"><a href="#"><i class='bx bx-happy'></i></a></td>
+                            <td class="social-media-1"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Problem Solving</td>
+                            <td class="social-media"><a href="#"><i class='bx bx-code-block'></i></a></td>
+                            <td class="social-media-1"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Team Work</td>
+                            <td class="social-media"><a href="#"><i class='bx bx-briefcase'></i></i></a></td>
+                            <td class="social-media-2"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Conflict Solving</td>
+                            <td class="social-media"><a href="#"><i class='bx bx-sad' ></i></a></td>
+                            <td class="social-media-2"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Discipline</td>
+                            <td class="social-media"><a href<i class='bx bx-run' ></i></a></td>
+                            <td class="social-media-1"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Communication</td>
+                            <td class="social-media"><a href="#"><i class='bx bx-message-rounded-dots' ></i></a></td>
+                            <td class="social-media-2"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Leadership</td>
+                            <td class="social-media"><a href="#"><i class='bx bx-trending-up' ></i></a></td>
+                            <td class="social-media-1"><a href="#"><i class='bx bx-bulb' ></i></a></td>
+                        </tr>
+                      </tbody>
+                  </table>
+              </div>
+            </div>
+          </div>
+    </section>
+    <br><br><br><br>
+    <section id="portofolio">
+        <!-- <center><iframe class="frame" src='https://my.spline.design/untitled-29d7f810b14c09e986f508d7fe7b14c9/' frameborder='0' width='500px' height='500px'></iframe></center> -->
+        <center><h1>Certifications</h1></center><br><br>
+        <center>
+            <h2>Data Analytics powered by IBM</h2>
+            <a target="_blank" href="https://drive.google.com/file/d/1oFuoy1984-DyAGu9ZWA-yGI284r-5QkQ/view?usp=sharing"><button class="btn">View IBM Certification</button></a><br><br>
+            <h2>Google Cloud Computing Certification</h2>
+            <a target="_blank" href="https://drive.google.com/file/d/1qEebKVNwU7rIinhHkybMgwqsEGMgtVnY/view?usp=sharing"><button class="btn">View Google Certification</button></a><br><br>
+        </center>
+    </section> <br><br><br>
+    <section id="contact">
+        <center><h1>Contact</h1></center>
+        <center>
+            <div class="con">
+                <div>
+                    <br><br>
+                    <h3>LinkedIn :</h3>
+                    <a target="_blank" href="https://www.linkedin.com/in/prasanthi-madhan-a79047320"><button class="btn">LinkedIn Profile</button></a><br><br>
+                    <h3>GitHub :</h3>
+                    <a href="https://github.com/Prasanthi-madhan" target="_blank" style="text-decoration: none;" rel="noopener noreferrer"><button class="btn">Github Profile</button></a>
+                    <br><br>
+                    <h3>Gmail:</h3>
+                    <h6>Student mail : <a style="text-decoration: none;" href="mailto:prasanthi.m2020@vitstudent.ac.in">prasanthi.m2020@vitstudent.ac.in</a></h6>
+                    <h6>Personal: <a style="text-decoration: none;" href="mailto:prasanthimadhan019@gmail.com">prasanthimadhan019@gmail.com</a></h6>
+                    <h3>Contact</h3>
+                    <h6>Phone no.: <a href="tel:+91 9176515702">9176515702</a></h6>
+                </div>
+            </div>
+        </center>
+    </section><br><br><br>s
+    <script>
+        function highlightParagraph() {
+            var paragraph = document.getElementById("myParagraph");
+            paragraph.classList.add("highlighted");
+            setTimeout(function() {
+                paragraph.classList.remove("highlighted");
+            }, 3000);
+        }
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('copyButton-1').addEventListener('click', function() {
+            const textToCopy = 'prasanthimadhan019@gmail.com';
+            navigator.clipboard.writeText(textToCopy).then(function() {
+                alert('Gmail Copied!');
+            }).catch(function(error) {
+                console.error('Failed to copy text: ', error);
+            });
+        });
+        document.getElementById('copyButton-2').addEventListener('click', function() {
+            const textToCopy = '+91 9176515702';
+            navigator.clipboard.writeText(textToCopy).then(function() {
+                alert('Phone number copied!');
+            }).catch(function(error) {
+                console.error('Failed to copy text: ', error);
+            });
+        });
+    </script>
+</body>
+</html>
